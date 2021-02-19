@@ -1,0 +1,19 @@
+<section id="header">
+  <div class="header container">
+    <div class="nav-bar">
+      <div class="brand">
+        <a [routerLink]="['']" routerLinkActive="router-link-active"><h1>AP<span>O</span>Y<span>O</span>.TN</h1></a>
+      </div>
+      <div class="nav-list">
+        <div class="hamburger"><div class="bar"></div></div>
+        <ul>
+          <li><a [routerLink]="['']" routerLinkActive="router-link-active" data-after="Acceuil">Acceuil</a></li>
+          <li><a href="produits.html" data-after="Produits">Produits</a></li>
+          <li><a [routerLink]="['/apropos']" routerLinkActive="router-link-active"  data-after="A props">A propos</a></li>
+          <li><a [routerLink]="['/contact']" routerLinkActive="router-link-active" data-after="Contacts">Contacts</a></li>
+          <li><a [routerLink]="['/connexion']" routerLinkActive="router-link-active" data-after="Connexion">Connexion</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
